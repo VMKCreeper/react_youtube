@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.start{
+    display: flex;
+}
+
+.search{
+    display: flex;
+    border-radius: 2rem;
+    padding: 0.75rem;
+    border-style: solid;
+}
+
+.end{
+    display: flex;
+    border-style: solid;
+}
+
+.searchBar{
+    
+}
+
+.img{
+    width: 80px;
+}
