@@ -4,11 +4,11 @@ const Video = () => {
     return(
         <article className={styles.container}>
             <a href="#" className={styles.thumbnail} duration="7:54">
-                <img className={styles.thumbnail_img} src="http://unsplash.it/250/150?gravity=center"></img>
+                <img className={styles.thumbnail_img} src="http://unsplash.it/1920/1080?gravity=center"></img>
             </a>
             <div className={styles.bottom_section}>
                 <a href="#">
-                    <img className={styles.profile_icon} src="http://unsplash.it/36/36?gravity=ce"></img>
+                    <img className={styles.profile_icon} src="http://unsplash.it/100/100?gravity=ce"></img>
                 </a>
                 <div className={styles.video_info}>
                     <a className={styles.video_title} href="#">Title</a>

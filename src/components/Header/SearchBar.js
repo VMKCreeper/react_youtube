@@ -2,17 +2,17 @@ import styles from "./header.module.css"
 
 const SearchBar = () => {
     return(
-        <div className={styles.search}>
-            <form>
-                <input className={styles.searchBar} type="text" placeholder="Search"></input>
-                <button type="submit">
+        <>
+            <form className={styles.search}>
+                <input className={styles.search_bar} type="text" placeholder="Search"></input>
+                <button type="submit" className={styles.search_button}>
                     <span className="material-symbols-outlined">search</span>
                 </button>
+                <button className={styles.mic_button}>
+                    <span className="material-symbols-outlined">mic</span>
+                </button>
             </form>
-            <button>
-                <span className="material-symbols-outlined">mic</span>
-            </button>
-        </div>
+        </>
     )
 }
 

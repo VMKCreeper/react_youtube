@@ -3,14 +3,16 @@ import styles from "./header.module.css"
 const Start = () => {
     return(
         <div className={styles.start}>
-            <button>
+            <a href="#">
                 <span className="material-symbols-outlined">menu</span>
-            </button>
-            <img 
-                className={styles.img} 
-                src="https://betanews.com/wp-content/uploads/2017/08/new-youtube-logo.jpg"
-                alt="Youtube logo"
-            ></img>
+            </a>
+            <a href="#">
+                <img 
+                    className={styles.logo}
+                    src="https://logolook.net/wp-content/uploads/2021/06/Youtube-Logo.svg"
+                    alt="Youtube logo"
+                ></img>
+            </a>
         </div>
     )
 }

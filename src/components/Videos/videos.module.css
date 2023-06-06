@@ -1,5 +1,6 @@
 *, *::before, *::after{
     box-sizing: border-box;
+    font-family: "Roboto","Arial", sans-serif;
 }
 
 .container{
@@ -9,7 +10,8 @@
 
 .video_section{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, .6fr));
+    justify-content: center;
     gap: 3rem 1rem;
     padding: 3rem 0;
     margin: 0 1.5rem;
@@ -34,7 +36,7 @@
     bottom: 5px;
     padding: .1em .3em;
     border-radius: .3em;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 .thumbnail_img{
@@ -65,7 +67,7 @@
 }
 
 .video_title{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: .5rem;
     /* removes line underneath link */
@@ -84,6 +86,7 @@
 }
 
 .video_metadata, .video_channel_name{
+    font-size: 13px;
     color: #555;
 }
 
@@ -101,7 +104,7 @@
     border: none;
     background: none;
     padding: 0;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #555;
     cursor: pointer;
 }
