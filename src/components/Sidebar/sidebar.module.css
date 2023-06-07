@@ -5,7 +5,8 @@
     margin-right: 30px;
     overflow: scroll;
     height: 870px;
-    top: 0;
+    top: 60px;
+    bottom: 0;
     position: sticky;
 }
 

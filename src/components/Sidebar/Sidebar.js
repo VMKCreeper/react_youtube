@@ -10,9 +10,7 @@ const Sidebar = () => {
     return(
         <div className={styles.sidebar}>
             <Start></Start>
-            <Start></Start>
-            <Start></Start>
-            <Start></Start>
+            <Playlists></Playlists>
             <Start></Start>
             <Playlists></Playlists>
             <Subscriptions></Subscriptions>
