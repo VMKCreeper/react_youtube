@@ -4,8 +4,9 @@
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
     /* brute force fix later */
-    top: 60px;
+    top: 70px;
     position: sticky;
+    margin-bottom: 10px;
 }
 
 .category_section{

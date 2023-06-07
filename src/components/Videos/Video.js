@@ -18,6 +18,7 @@ const Video = () => {
                     </div>
                 </div>
             </div>
+            <div></div>
         </article>
     )
 }

@@ -2,9 +2,7 @@
     background-color: white;
     display: flex;
     align-items: center;
-    padding-top: 0;
-    padding-bottom: .4rem;
-    top: 0;
+    top: 0px;
     position: sticky;
 }
 

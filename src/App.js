@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
-    <div>
+    <div className={styles.app}>
         <Header></Header>
         <div className={styles.body}>
             <Sidebar></Sidebar>
