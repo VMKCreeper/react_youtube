@@ -1,7 +1,11 @@
 .categories{
+    background-color: white;
     padding: 1rem 2rem;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
+    /* brute force fix later */
+    top: 60px;
+    position: sticky;
 }
 
 .category_section{
@@ -13,18 +17,18 @@
     margin-right: 1rem;
     word-wrap: none;
     white-space: nowrap;
-    border: 1px solid #ccc;
+    border: none;
     /* large # will give you pill shape */
-    border-radius: 900px;
+    border-radius: .5rem;
     background-color: #e7e7e7;
-    padding: 0.5rem 1rem;
-    font-size: 14px;
+    padding: 0.4rem .7rem;
+    font-size: 13px;
     cursor: pointer;
-    transition: background-color 150ms;
+    transition: background-color 200ms;
 }
 
 .category_button:hover{
-    background-color: #ececec;
+    background-color: #eeeeee;
 }
 
 .category_button:first-child{
