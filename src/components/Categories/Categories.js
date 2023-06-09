@@ -17,6 +17,17 @@ const Categories = () => {
                 <CategoryButton category="Category 1"></CategoryButton>
                 <CategoryButton category="Category 1"></CategoryButton>
                 <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
+                <CategoryButton category="Category 1"></CategoryButton>
             </section>
         </div>
     )

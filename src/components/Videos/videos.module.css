@@ -32,8 +32,8 @@
     position: absolute;
     background-color: black;
     color: white;
-    right: 5px;
-    bottom: 5px;
+    right: 7px;
+    bottom: 7px;
     padding: .1em .3em;
     border-radius: .3em;
     font-size: .8rem;
@@ -45,6 +45,7 @@
     min-width: 250px;
     min-height: 150px;
     background-color: #aaa;
+    border-radius: 1rem;
 }
 
 .bottom_section{
@@ -111,5 +112,6 @@
 
 .videos{
     overflow-y: scroll;
-    height: 80vh;
+    height: 85vh;
+    padding-left: 40px;
 }

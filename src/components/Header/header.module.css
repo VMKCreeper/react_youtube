@@ -4,6 +4,7 @@
     align-items: center;
     top: 0px;
     position: sticky;
+    margin: 0 20px 0 20px;
 }
 
 .logo{
@@ -38,7 +39,7 @@
     align-items: center;
     padding: 0 1.25rem;
     border: 1px solid #777;
-    background-color: #e0e0e0;
+    background-color: #f7f7f7;
     border-left: none;
     border-top-right-radius: 10rem;
     border-bottom-right-radius: 10rem;
@@ -50,9 +51,9 @@
 }
 
 .mic_button{
+    background-color: white;
     margin-left: .5rem;
-    border: 1px solid #777;
-    background-color: #e0e0e0;
+    border: none;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -70,7 +71,7 @@
 
 .profile_icon{
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
+    width: 32px;
+    height: 32px;
     background-color: #aaa;
 }

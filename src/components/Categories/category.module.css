@@ -1,8 +1,6 @@
 .categories{
     background-color: white;
     padding: 1rem 2rem;
-    border-top: 1px solid #999;
-    border-bottom: 1px solid #999;
     position: static;
     margin-top: 10px;
 }

@@ -1,9 +1,8 @@
 .sidebar{
     display: flex;
     flex-direction: column;
-    width: 15%;
-    margin-right: 30px;
-    height: 90vh;
+    width: 250px;
+    height: 92vh;
     overflow-y: scroll;
     position: static;
 }
@@ -51,6 +50,6 @@ h4{
 }
 
 .section a{
-    margin-left: 11px;
+    margin-left: 15px;
     font-size: 13px;
 }
