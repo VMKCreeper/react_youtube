@@ -1,12 +1,11 @@
 .sidebar{
     display: flex;
     flex-direction: column;
-    min-width: 250px;
+    width: 15%;
     margin-right: 30px;
+    height: 90vh;
     overflow-y: scroll;
-    height: 89vh;
-    top: 70px;
-    position: sticky;
+    position: static;
 }
 
 .item{
@@ -46,7 +45,12 @@ h4{
 .logo{
     margin-right: .75rem;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     background-color: #aaa;
+}
+
+.section a{
+    margin-left: 11px;
+    font-size: 13px;
 }

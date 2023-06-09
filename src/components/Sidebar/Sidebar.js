@@ -11,8 +11,6 @@ const Sidebar = () => {
         <div className={styles.sidebar}>
             <Start></Start>
             <Playlists></Playlists>
-            <Start></Start>
-            <Playlists></Playlists>
             <Subscriptions></Subscriptions>
             <Explore></Explore>
             <End></End>

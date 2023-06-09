@@ -6,6 +6,13 @@ const Subscriptions = () => {
         <section className={styles.section}>
             <h4>Subscriptions</h4>
             <Item channel="https://yt3.ggpht.com/22KnC03iigBpBtrN90YC6SHS5GooWJFBEmNldwU1zBqM3BWJMwiSe0r9OZstZHYHc3kCMf5f=s600-c-k-c0x00ffffff-no-rj-rp-mo" name="VMKCreeper"></Item>
+            <Item channel="https://yt3.ggpht.com/22KnC03iigBpBtrN90YC6SHS5GooWJFBEmNldwU1zBqM3BWJMwiSe0r9OZstZHYHc3kCMf5f=s600-c-k-c0x00ffffff-no-rj-rp-mo" name="VMKCreeper"></Item>
+            <Item channel="https://yt3.ggpht.com/22KnC03iigBpBtrN90YC6SHS5GooWJFBEmNldwU1zBqM3BWJMwiSe0r9OZstZHYHc3kCMf5f=s600-c-k-c0x00ffffff-no-rj-rp-mo" name="VMKCreeper"></Item>
+            <Item channel="https://yt3.ggpht.com/22KnC03iigBpBtrN90YC6SHS5GooWJFBEmNldwU1zBqM3BWJMwiSe0r9OZstZHYHc3kCMf5f=s600-c-k-c0x00ffffff-no-rj-rp-mo" name="VMKCreeper"></Item>
+            <Item channel="https://yt3.ggpht.com/22KnC03iigBpBtrN90YC6SHS5GooWJFBEmNldwU1zBqM3BWJMwiSe0r9OZstZHYHc3kCMf5f=s600-c-k-c0x00ffffff-no-rj-rp-mo" name="VMKCreeper"></Item>
+            <Item channel="https://yt3.ggpht.com/22KnC03iigBpBtrN90YC6SHS5GooWJFBEmNldwU1zBqM3BWJMwiSe0r9OZstZHYHc3kCMf5f=s600-c-k-c0x00ffffff-no-rj-rp-mo" name="VMKCreeper"></Item>
+            <Item channel="https://yt3.ggpht.com/22KnC03iigBpBtrN90YC6SHS5GooWJFBEmNldwU1zBqM3BWJMwiSe0r9OZstZHYHc3kCMf5f=s600-c-k-c0x00ffffff-no-rj-rp-mo" name="VMKCreeper"></Item>
+            <Item icon="expand_more" name="Show more"></Item>
         </section>
     )
 }

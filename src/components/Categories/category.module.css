@@ -3,15 +3,13 @@
     padding: 1rem 2rem;
     border-top: 1px solid #999;
     border-bottom: 1px solid #999;
-    /* brute force fix later */
-    top: 70px;
-    position: sticky;
-    margin-bottom: 10px;
+    position: static;
+    margin-top: 10px;
 }
 
 .category_section{
     display: flex;
-    overflow: none;
+    overflow: hidden;
 }
 
 .category_button{
