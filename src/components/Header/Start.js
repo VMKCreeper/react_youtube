@@ -1,9 +1,16 @@
 import styles from "./header.module.css"
 
-const Start = () => {
+const Start = ({collapsed, setCollapsed}) => {
+    function collapseSidebar(){
+        if(collapsed){
+            setCollapsed(false)
+        } else {
+            setCollapsed(true)
+        }
+    }
     return(
         <div className={styles.start}>
-            <a href="#">
+            <a href="#" onClick={collapseSidebar}>
                 <span className="material-symbols-outlined">menu</span>
             </a>
             <a href="#">

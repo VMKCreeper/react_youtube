@@ -6,9 +6,16 @@ import SidebarFooter from "./SidebarFooter"
 import End from "./End"
 import styles from "./sidebar.module.css"
 
-const Sidebar = () => {
+const Sidebar = ({collapsed}) => {
+    let className
+    if(collapsed){
+        className = styles.sidebarCollapsed
+    } else {
+        className = styles.sidebar
+    }
+
     return(
-        <div className={styles.sidebar}>
+        <div className={className}>
             <Start></Start>
             <Playlists></Playlists>
             <Subscriptions></Subscriptions>

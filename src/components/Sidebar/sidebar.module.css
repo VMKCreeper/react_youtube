@@ -7,6 +7,13 @@
     position: static;
 }
 
+.sidebarCollapsed{
+    width: 55px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 .item{
     font-size: 15px;
     display: flex;

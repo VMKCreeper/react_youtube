@@ -1,3 +1,8 @@
+html {
+    overflow: hidden;
+}
+/* accesses the body tag in public/index.html */
+
 .body{
     display: flex;
 }
@@ -5,10 +10,6 @@
 .right{
     min-width: 50%;
     flex: 1;
-}
-
-.app{
-    overflow: hidden;
 }
 
 a{

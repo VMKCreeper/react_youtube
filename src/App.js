@@ -3,13 +3,15 @@ import Container from "./components/Videos/Container"
 import Categories from "./components/Categories/Categories"
 import styles from "./app.module.css"
 import Sidebar from "./components/Sidebar/Sidebar";
+import { useState } from "react";
 
 function App() {
+  const [collapsed, setCollapsed] = useState(false)
   return (
-    <div className={styles.app}>
-        <Header></Header>
+    <div>
+        <Header collapsed={collapsed} setCollapsed={setCollapsed}></Header>
         <div className={styles.body}>
-            <Sidebar></Sidebar>
+            <Sidebar collapsed={collapsed}></Sidebar>
             <div className={styles.right}>
                 <Categories></Categories>
                 <Container></Container>

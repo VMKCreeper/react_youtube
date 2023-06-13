@@ -3,10 +3,10 @@ import Start from "./Start"
 import End from "./End"
 import styles from "./header.module.css"
 
-const Header = () => {
+const Header = ({collapsed, setCollapsed}) => {
     return(
         <div className={styles.header}>
-            <Start></Start>
+            <Start collapsed={collapsed} setCollapsed={setCollapsed}></Start>
             <SearchBar></SearchBar>
             <End></End>
         </div>
